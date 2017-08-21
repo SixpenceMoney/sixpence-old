@@ -33,9 +33,11 @@
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		E0DDF03C1F4B03D200CEFF57 /* SixpenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDF03B1F4B03D200CEFF57 /* SixpenceUITests.swift */; };
+		E0DDF03C1F4B03D200CEFF57 /* NewUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDF03B1F4B03D200CEFF57 /* NewUserTests.swift */; };
 		E0DDF14D1F4B0D4E00CEFF57 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDF0691F4B046100CEFF57 /* Nimble.framework */; };
 		E0DDF14E1F4B0D4E00CEFF57 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DDF06A1F4B046100CEFF57 /* Quick.framework */; };
+		E0DDF1791F4B0F9C00CEFF57 /* NewUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDF1781F4B0F9C00CEFF57 /* NewUser.swift */; };
+		E0DDF17B1F4B0FAF00CEFF57 /* HowMuchToManageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DDF17A1F4B0FAF00CEFF57 /* HowMuchToManageScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -281,10 +283,12 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		E0DDF0391F4B03D200CEFF57 /* SixpenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SixpenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0DDF03B1F4B03D200CEFF57 /* SixpenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixpenceUITests.swift; sourceTree = "<group>"; };
+		E0DDF03B1F4B03D200CEFF57 /* NewUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserTests.swift; sourceTree = "<group>"; };
 		E0DDF03D1F4B03D200CEFF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0DDF0691F4B046100CEFF57 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		E0DDF06A1F4B046100CEFF57 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		E0DDF1781F4B0F9C00CEFF57 /* NewUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUser.swift; sourceTree = "<group>"; };
+		E0DDF17A1F4B0FAF00CEFF57 /* HowMuchToManageScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowMuchToManageScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,8 +509,9 @@
 		E0DDF03A1F4B03D200CEFF57 /* SixpenceUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E0DDF03B1F4B03D200CEFF57 /* SixpenceUITests.swift */,
 				E0DDF03D1F4B03D200CEFF57 /* Info.plist */,
+				E0DDF03B1F4B03D200CEFF57 /* NewUserTests.swift */,
+				E0DDF17C1F4B0FC000CEFF57 /* Actors */,
 			);
 			path = SixpenceUITests;
 			sourceTree = "<group>";
@@ -518,6 +523,23 @@
 				E0DDF06A1F4B046100CEFF57 /* Quick.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0DDF17C1F4B0FC000CEFF57 /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				E0DDF1781F4B0F9C00CEFF57 /* NewUser.swift */,
+				E0DDF17D1F4B0FC800CEFF57 /* Screens */,
+			);
+			name = Actors;
+			sourceTree = "<group>";
+		};
+		E0DDF17D1F4B0FC800CEFF57 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E0DDF17A1F4B0FAF00CEFF57 /* HowMuchToManageScreen.swift */,
+			);
+			name = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -999,7 +1021,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0DDF03C1F4B03D200CEFF57 /* SixpenceUITests.swift in Sources */,
+				E0DDF03C1F4B03D200CEFF57 /* NewUserTests.swift in Sources */,
+				E0DDF17B1F4B0FAF00CEFF57 /* HowMuchToManageScreen.swift in Sources */,
+				E0DDF1791F4B0F9C00CEFF57 /* NewUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
