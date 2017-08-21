@@ -39,12 +39,12 @@
             buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "SixpenceTests.xctest"
-               BlueprintName = "SixpenceTests"
+               BlueprintIdentifier = "E0DDF0381F4B03D200CEFF57"
+               BuildableName = "SixpenceUITests.xctest"
+               BlueprintName = "SixpenceUITests"
                ReferencedContainer = "container:Sixpence.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,16 +56,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "SixpenceTests.xctest"
-               BlueprintName = "SixpenceTests"
-               ReferencedContainer = "container:Sixpence.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
